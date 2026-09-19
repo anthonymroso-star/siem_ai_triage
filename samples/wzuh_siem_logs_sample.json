@@ -1,0 +1,2 @@
+{"timestamp":"2026-09-18T10:34:45.113+0000","rule":{"level":5,"description":"unix_chkpwd: Password check failed.","id":"5557"},"agent":{"id":"001","name":"ubuntu-prod-sanitized"},"location":"/var/log/auth.log","data":{"srcip":"192.X.X.X","user":"sanitized_user"}}
+

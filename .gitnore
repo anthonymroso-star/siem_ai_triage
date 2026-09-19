@@ -1,0 +1,21 @@
+# Jupyter Notebook hidden checkpoints and layout locks
+.ipynb_checkpoints/
+.virtualdocuments/
+.ipython/
+
+# Block ALL local live production database logs from Git tracking
+wzuh_siem_logs_*.json
+wzuh_siem_logs_*.csv
+wzuh_siem_triage_history.csv
+harvester_critical_errors.log
+
+# Block localized environment parameters holding real infrastructure IPs
+.env
+config_local.json
+
+# Python execution environment files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+

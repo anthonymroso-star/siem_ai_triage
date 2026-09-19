@@ -1,0 +1,4 @@
+triage_timestamp,allocated_ai_model,analyst_manual_comments,ai_analysis_snapshot,timestamp,rule_id,rule_level,rule_description,agent_name,data_srcip
+2026-09-18 10:36:12,llama3.2:3b,Verified client testing activity. Internal system changes under review.,ASSESSMENT: Suspicious | CONFIDENCE: 70% | TECHNICAL REASON: Unexpected port binding kdeconnectd detected on local network interface.,2026-09-18T10:35:21.543+0000,533,7,Listened ports status changed.,ubuntu-prod-sanitized,192.X.X.X
+2026-09-18 10:38:45,llama3.2:3b,Investigating potential brute force string pattern.,ASSESSMENT: Malicious | CONFIDENCE: 80% | TECHNICAL REASON: Multiple rapid SSH logon failures detected from a non-standard network segment.,2026-09-18T10:34:47.125+0000,5760,5,sshd: authentication failed.,ubuntu-prod-sanitized,192.X.X.X
+
